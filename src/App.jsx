@@ -11,6 +11,8 @@ export default function App() {
 
   return (
     <div style={containerStyle}>
+      <h1 className="text-3xl font-bold underline text-red-500">Hello World</h1>
+
       <ProfileCard
         nome="Ana Silva"
         bio="Desenvolvedora Front-end apaixonada por React."
